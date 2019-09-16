@@ -1,14 +1,27 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-color: pink;
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background-color: pink;
 }
 
 nav a {
-  margin-right: 0.6vw;
-  text-decoration: none;
+    margin-right: 0.6vw;
+    text-decoration: none;
 }
 
 .pokeImg {
-  height: 20vh;
+    height: 20vh;
+}
+
+.allPokesFromAPI {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    line-height: 1.7rem;
+}
+
+.pokesFromAllThePokesLink {
+    font-size: 1rem;
+    margin-right: 1vw;
 }
